@@ -18,10 +18,10 @@ import domain.Symptom;
 			p.addSymptom(new Symptom("s5", 10, 10), 5);
 			
 			
-			Covid19PacientModelAdapter model=new Covid19PacientModelAdapter(p);        
+			Covid19PacientModelAdapter pacientModelAdapter=new Covid19PacientModelAdapter(p);        
 			
 			JFrame j=new JFrame();
-			JTable table = new JTable(model);
+			JTable table = new JTable(pacientModelAdapter);
 			 j.add(new JScrollPane(table));
 	         
 		     j.setTitle(p.getName()+"'s symptoms");
