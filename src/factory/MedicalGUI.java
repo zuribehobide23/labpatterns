@@ -48,7 +48,7 @@ public class  MedicalGUI extends JFrame {
 		contentPane.add(lblSymptomWeight);
 		
 		
-		JButton btnNewButton = new JButton("Add Medicament");
+		JButton btnNewButton = new JButton("Add Symptom");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 					String symptomName=symptonNameField.getText();
@@ -58,7 +58,7 @@ public class  MedicalGUI extends JFrame {
 		btnNewButton.setBounds(32, 202, 173, 29);
 		contentPane.add(btnNewButton);
 		
-		btnRemoveSymptom = new JButton("Remove Medicament");
+		btnRemoveSymptom = new JButton("Remove Symptom");
 		btnRemoveSymptom.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				errorLabel.setText(" ");
