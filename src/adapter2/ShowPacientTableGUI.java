@@ -8,16 +8,14 @@ import javax.swing.table.TableModel;
 
 import domain.Covid19Pacient;
 
-
 public class ShowPacientTableGUI extends JFrame{
 	
 	JTable table;
 	Covid19Pacient pacient;
-	
   
   public ShowPacientTableGUI(Covid19Pacient pacient ) {
 	  	this.setTitle("Covid Symptoms "+pacient.getName());
-	  	
+	  	setBounds(650, 100, 200, 300);
 	  	this.pacient=pacient;
 	  	
 	  	setFonts();
@@ -29,8 +27,6 @@ public class ShowPacientTableGUI extends JFrame{
 	    pane.setPreferredSize(
 	      new java.awt.Dimension(300, 200));
 	    this.getContentPane().add(pane);
-	    
-	  
   }
 
   private static void setFonts() {
