@@ -25,17 +25,16 @@ public class SymptomFactory {
 	            return symptoms.get(symptomName);
 	        }
 
-	        // Listas de síntomas y sus índices.
 	        java.util.List<String> impact5 = Arrays.asList("fiebre", "tos seca", "astenia", "expectoracion");
 	        java.util.List<Double> index5 = Arrays.asList(87.9, 67.7, 38.1, 33.4);
 	        java.util.List<String> impact3 = Arrays.asList("disnea", "dolor de garganta", "cefalea", "mialgia", "escalofrios");
 	        java.util.List<Double> index3 = Arrays.asList(18.6, 13.9, 13.6, 14.8, 11.4);
-	        java.util.List<String> impact1 = Arrays.asList("nauseas", "vómitos", "congestión nasal", "diarrea", "hemoptisis", "congestion conjuntival");
+	        java.util.List<String> impact1 = Arrays.asList("nauseas", "vï¿½mitos", "congestiï¿½n nasal", "diarrea", "hemoptisis", "congestion conjuntival");
 	        java.util.List<Double> index1 = Arrays.asList(5.0, 4.8, 3.7, 0.9, 0.8);
 
-	        java.util.List<String> digestiveSymptom = Arrays.asList("nauseas", "vómitos", "diarrea");
+	        java.util.List<String> digestiveSymptom = Arrays.asList("nauseas", "vï¿½mitos", "diarrea");
 	        java.util.List<String> neuroMuscularSymptom = Arrays.asList("fiebre", "astenia", "cefalea", "mialgia", "escalofrios");
-	        java.util.List<String> respiratorySymptom = Arrays.asList("tos seca", "expectoracion", "disnea", "dolor de garganta", "congestión nasal", "hemoptisis", "congestion conjuntival");
+	        java.util.List<String> respiratorySymptom = Arrays.asList("tos seca", "expectoracion", "disnea", "dolor de garganta", "congestiï¿½n nasal", "hemoptisis", "congestion conjuntival");
 
 	        int impact = 0;
 	        double index = 0;
