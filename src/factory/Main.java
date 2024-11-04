@@ -2,6 +2,7 @@ package factory;
 
 import domain.Covid19Pacient;
 import domain.Medicament;
+import domain.SymptomFactory;
 
 public class Main {
 
@@ -10,5 +11,8 @@ public class Main {
 		PacientSymptomGUI psGUI1 = new PacientSymptomGUI(p1);
 		Medicament m = new Medicament("Ibuprofeno");
 		MedicalGUI mgui = new MedicalGUI(m);
+		SymptomFactory fac = new SymptomFactory();
+		
+		fac.createSymptom("Mareos", 1);
 	}
 }
